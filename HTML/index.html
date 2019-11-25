@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Final - WEBI 1622 - Sam Christensen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../styles/final.css">
+    <link rel="stylesheet" href="../styles/index.css">
 <link rel="stylesheet" href="../styles/slicknav_final.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -20,30 +20,30 @@
 </head>
 
 <body>
-<div id="container">
+<div class="container-fluid ">
     <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-    <div class="row no-gutters">
-        <div class="col-md-6">
-            <header>
+    <div class="row no-gutters container-fluid p-0">
+        <div class="col-md-6 color1">
+            <header class="mt-1">
                 <h1>
                     <div id="events.com">Events.com</div>
                     Minneapolis
                 </h1>
             </header>
         </div>
-        <div class="col-md-6">
-            <section>
-                <div id="sectiongrid">
-                    <img id="imgA" src="../images/Asset 1.png" alt="Bar Scene"/>
-                    <img id="imgB" src="../images/Asset 5.png" alt="Live Music"/>
-                    <img id="imgC" src="../images/theatre.jpg" height="143" width="190" alt="Theatre"/></div>
-            </section>
-        </div>
+           <div class="col-md-6 m-0 p-0"> <section>
+               <img class="img-fluid" src="../images/banner.jpg" alt="Header Image">
+                    <!--<img id="imgA" class="img-fluid" src="../images/Asset 1.png" alt="Bar Scene"/>-->
+                    <!--<img id="imgB" class="img-fluid" src="../images/Asset 5.png" alt="Live Music"/>-->
+                    <!--<img id="imgC" class="img-fluid" src="../images/theatre.jpg" height="143" width="190" alt="Theatre"/>-->
+            </section></div>
     </div>
+
+
     <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-    <div class="row no-gutters">
+    <div class="row no-gutters m-0 p-0">
         <nav id="mobile_menu"></nav>
-        <nav id="nav_menu">
+        <nav id="nav_menu" class="navbar navbar-expand container-fluid">
             <ul>
                 <li><a href="https://first-avenue.com/">MUSIC</a></li>
                 <li><a href="https://walkerart.org/">ART</a></li>
@@ -64,7 +64,7 @@
     <div class="row no-gutters">
         <div class="col-md-9">
             <main>
-                <div id="maincontainer">
+                <div id="maincontainer" class="container-fluid">
 
 
                     <img id="img1" src="../images/download-2.jpg" alt="Open Mic Night"/>
@@ -147,9 +147,8 @@
 <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <div class="row no-gutters">
-        <footer>
-            <div id="footerfooter">
-                <div id="lefttext">
+        <footer class="container-fluid">
+                <div class="col-md-4">
                     <ul>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="#">About Us</a></li>
@@ -159,13 +158,12 @@
                 </div>
 
 
-                <div id="centertext"><p>Minneapolis Community & Technical College</p>
-                    <p>-------------------------------------------------------- WEBI 1622 Midterm
-                        ------------------------------------------------------</p>
+                <div class="col-md-4"><p>Minneapolis Community & Technical College</p>
+                    <p>WEBI 1622 Midterm</p>
                     <p>Samuel Christensen</p></div>
 
 
-                <div id="righttext"><img id="facebook" src="../images/facebook 48x48(white).png" height="48" width="48" alt="Facebook Icon"/>
+                <div class="col-md-4"><img id="facebook" src="../images/facebook 48x48(white).png" height="48" width="48" alt="Facebook Icon"/>
                     <img id="twitter" src="../images/twitter 48x48(white).png" height="48" width="48" alt="Twitter Icon"/>
                     <img id="instagram" src="../images/instagram 48x48(white).png" height="48" width="48" alt="Instagram Icon"/></div>
             </div>
